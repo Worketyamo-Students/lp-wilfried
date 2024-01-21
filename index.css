@@ -127,3 +127,21 @@ input{
         padding-left: 2rem;
         
       }
+      @media (min-width:400px) and( max-width: 430px)
+      {
+        body{
+            width: 100%;
+            padding: 0;
+        }
+      
+      .cadre{
+        display:none;
+        visibility:hidden;
+      }
+      .form{
+        background: url("./image/logo-ordi.png");
+
+      }
+      
+      
+    }
